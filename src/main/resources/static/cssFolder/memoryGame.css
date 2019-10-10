@@ -1,0 +1,59 @@
+
+body{
+  background: url("../images/blackTheme.JPG");
+}
+.watch{
+  margin: 10px,10px, 10px , 50px ,  ;
+  color: hsla(286, 77%, 56%, 1) ;
+  font-weight: bold;
+}
+#time{
+  background: hsla(360, 99%, 100%, 1) ;
+  background: url("../images/blackTheme.JPG");
+}
+#userInfo{
+  margin: 10px,10px, 10px , 50px ,  ;
+  color: hsla(286, 77%, 56%, 1) ;
+  font-weight: bold;
+}
+
+.container{
+  display: grid;
+  grid-gap: 3px ;
+  grid-template: repeat(4, 100px) /repeat(5, 100px) ;
+  margin-left: 120px;
+}
+
+ .subContainer{
+   display: grid;
+   height: 100px ;
+   width: 100px ;
+   background-color: #008000 ;
+   transition: transform 0.8s ;
+   transform-style: preserve-3d;
+   }
+
+/*add Pseudo-class to show that tiles are clickable*/
+.subContainer:hover  {
+    background-color: hsla(143, 100%, 50%, 1);
+ }
+
+.front{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  height: 100px ;
+  width: 100px ;
+  transform: rotateY(180deg);
+}
+
+.back{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  transform: rotateY(180deg);
+  height: 100px ;
+  width: 100px ;
+}
