@@ -1,8 +1,8 @@
 // first commit made on 11/10/2019. This project is no where near completion
    on the day of this commit.
    However, commit has to be made to enable change/progress tracking,
-   abd to justify my long stay away from making further contribution to my last,
-   repo(memoryGame), this period which was used to familiarise my self with backend knowledge
+   and to justify my long stay away from making further contribution to my last,
+   repo(memoryGame). This long period,was used to familiarise myself with backend knowledge
    using Java with Spring Boot framework.
 
 
@@ -30,5 +30,5 @@
 		3). Display username when loggd in and game data.
 
    Other changes and refactoring shall also be introduced when identified. 
-
+Please note, the fuckYou.html page is only used for test case, i do not mean to say what you read to you.
 Thanks.
